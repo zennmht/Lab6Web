@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    width: 100vw;
+    margin: 50px 0;
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: start;
+    background: #B9E9FC;
+}
+
+nav a:hover{
+    background-color: #DAF5FF;
+    transition: .2s all;
+}
+nav a{
+    display: inline-block;
+    color: #000000;
+    padding: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 18px;
+    background: #3E54AC;
+    color: #fff;
+}
+
+footer a {
+    color: white;
+    padding-top: 10px;
+}
+
+.main{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #C0DBEA;
+    color: #000;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+table tr th{
+    color: #fff;
+    background: #19A7CE;
+    font-weight: bold;
+}
+
+table tr:hover{
+    background-color: #B4E4FF;
+    color: black;
+}
+
+table th, td{
+    padding: 10px 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+  
+table a:hover {
+    background-color: #009FBD;
+  }
+
+table tr td:nth-child(5) a{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+table tr td:nth-child(5), table tr th:nth-child(5){
+    width: 18%;
+} 
+
+.card {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.228);
+    background: #6DA9E4;
+    color: white;
+}
+
+.card .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .input input[type="text"]{
+    padding: 6px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card .input label{
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.card button{
+    margin-top: 12px;
+    padding: 6px 20px;
+    border: 1px solid #B0DAFF;
+    background-color: #009FBD;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.card button:hover{
+    background-color: #454545;
+    border: 1px solid #B9E9FC;
+    cursor: pointer;
+}
+
+h1 {
+    background-image: linear-gradient(to right, #ef233c, #780000);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.akun a {
+    color: black;
+}
+
+.btn-update {
+    border: 1px solid #2F58CD;
+    background: #2F58CD url("icon/update.png") no-repeat 10px 8px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    box-shadow: 2px 3px 4px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    border: 1px solid #FF0303;
+    background: #FF0303 url("icon/delete.png") no-repeat 10px 8px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    box-shadow: 2px 3px 4px;
+    cursor: pointer;
+}
+
+.btn-add {
+    border: 1px solid #57C5B6;
+    background: #57C5B6 url("icon/add.png") no-repeat 14px 4px;
+    height: 40px;
+    padding-left: 60px;
+    padding-top: 20px;
+    box-shadow: 2px 3px 4px;
+    margin-left: 700px;
+    cursor: pointer;  
+}
+
+.btn-add:hover {
+    background-color: #159895;
+    transition: .2s all;
+}
+
+.btn-update:hover {
+    background-color: #3E54AC;
+    transition: .2s all;
+}
+
+.btn-delete:hover {
+    background-color: #E21818;
+    transition: .2s all;
+}
